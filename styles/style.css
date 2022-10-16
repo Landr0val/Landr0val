@@ -52,7 +52,7 @@ body {
     text-shadow: -1px 0 #181a1d, 0 4px #181a1d, 0px 0 #181a1d, 0 -1px #181a1d;
 }
 .layout {
-    padding-left: 180px;
+    padding-left: 80px;
 }
 
 .buttons {
@@ -63,7 +63,7 @@ body {
     color: #1d1e2a;
     border-radius: 12px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 40px;
     float: left;
 }
 
