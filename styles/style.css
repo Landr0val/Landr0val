@@ -109,19 +109,27 @@ body {
 
 #welcome::placeholder {
     font-family: Noto Sans Mono;
+    color: #dee3f8;
 }
 
 #welcome:focus {
     scale: 1.3;
     /* font-family: "M PLUS Rounded 1c"; */
-    background-color: #242534;
+    background-color: #2f304484;
     border-radius: 12px;
 }
 
 .titulo {
+    font-family: "M PLUS Rounded 1c";
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 52px;
     color: #B1BCE6;
+    /* background-color: #B1BCE6; */
+    padding: 4px;
+    /* border-radius: 7px; */
+    margin-top: 5px;
+    margin-bottom: 28px;
+    /* width: 150px; */
     /* text-decoration: underline; */
     /* text-shadow: -0.5px 0 #B1BCE6, 0 4px #B1BCE6, 0px 0 #B1BCE6, 0 -0.5px #B1BCE6; */
 }
@@ -139,6 +147,7 @@ body {
     text-align: center;
     margin-left: 40px;
     float: left;
+    /* box-shadow: 0px 0 #B1BCE6, 0 5px #B1BCE6, 3px 0 #B1BCE6, 0 0px #B1BCE6; */
 }
 
 .link-button {
@@ -152,10 +161,12 @@ body {
     font-weight: bold;
     font-size: 15px;
     color: #B1BCE6;
-    padding-top: 3px;
-    transition: 0.5s;
+    padding-top: 5px;
+    transition: 0.2s;
     cursor: pointer;
     background-color: transparent;
+    width: 170px;
+    /* scale: 1.2; */
     border-radius: 7px;
 }
 /* #B1BCE6 */
@@ -164,9 +175,10 @@ body {
     background-color: #B1BCE6;
     /* border: 2px #00ffbf solid; */
     color: #2f3044c8;
-    padding: 5px;
+    padding: 5px ;
     border-radius: 7px;
-    scale: 1.2;
+    /* width: 154px; */
+    /* scale: 1.2; */
 }
 
 h1 {
@@ -180,4 +192,68 @@ h1 {
     color: #00ffbf;
     border-radius: 12px;
     padding: 0px 15px 0px 15px;
+}
+
+/* #bs {
+    background-color: #FFB3B3;
+}
+
+#ent {
+    background-color: #B1B2FF;
+}
+
+#dev {
+    background-color: #D9D7F1;
+}
+
+#std {
+    background-color: #CDF0EA;
+}
+
+#otr {
+    background-color: #9ADCFF;
+} */
+
+#t3 {
+    margin-top: 5px;
+    background-color: #FFB3B3;
+    width: 100%;
+    height: 3px;
+    border-radius: 12px;
+}
+
+#t1 {
+    /* margin-right: 115px; */
+    margin-top: 5px;
+    background-color: #B1B2FF;
+    width: 100%;
+    height: 3px;
+    border-radius: 12px;
+}
+
+#t2 {
+    /* margin-right: 115px; */
+    margin-top: 5px;
+    background-color: #CDF0EA;
+    width: 100%;
+    height: 3px;
+    border-radius: 12px;
+}
+
+#t4 {
+    /* margin-right: 115px; */
+    margin-top: 5px;
+    background-color: #D9D7F1;
+    width: 100%;
+    height: 3px;
+    border-radius: 12px;
+}
+
+#t5 {
+    /* margin-right: 115px; */
+    margin-top: 5px;
+    background-color: #9ADCFF;
+    width: 100%;
+    height: 3px;
+    border-radius: 12px;
 }
